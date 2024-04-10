@@ -1,5 +1,5 @@
 header{
-    background-color: darkgreen;
+    background-color:  #ffb6c1;
     color: white;
 }
 .about{
@@ -7,7 +7,7 @@ header{
     margin-top: 2%;
 }
 body{
-    background-color: lightgreen;
+    background-color:  #fdcdd4;
 }
 form{
     margin: 5%;
@@ -15,6 +15,30 @@ form{
 footer{
     text-align: center;
     padding: 2%;
-    color: white;
-    background-color:darkgreen
+    color: rgb(0, 0, 0);
+    background-color: #ffb6c1;
+}
+.carousel {
+    max-width: 600px;
+    padding-top: 30px;
+    margin: auto;
+}
+.carousel-item img {
+    max-height: 400px;
+    width: auto;
+    margin: auto;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.table{
+    display: flex;
+    justify-content: start;
+    padding: 1%;
+}
+.table ul{
+    list-style: none;
+    padding: 0;
 }
